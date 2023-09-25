@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d3d3d3;
+}
+
+.container-fotos {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: transparent;
+}
+
+.container-imagens {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43.75rem;
+}
+
+.fotos {
+    opacity: 0;
+    transition: opacity 0.2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 0.75rem;
+    border: 6px solid #00bfff;
+}
+
+
+
+
+.ativar {
+    opacity: 1;
+}
+
+#voltar, #avancar {
+    width:  1.875rem;
+    height: 1.875rem;
+    border: none;
+    background-color: transparent;
+    color: #50abe4;
+    cursor: pointer;
+    
+}
+
+#voltar img, #avancar img {
+    width: 100%;
+    height: 100%;
+}
+
+#avancar {
+    transform: rotate(180deg);
+}
+
+#primeiro,
+#segundo {
+    width: 25rem;
+}
+
+#terceiro {
+    width: 20rem;
+}
+
+#quarto {
+    width: 27rem;
+    height: 30rem;
+}
+
+#quinto {
+    width: 33rem;
+}
+
+#sexto {
+    width: 30rem;
+}
+
+#setimo {
+    width: 28rem;
+}
+
+#oitavo {
+    width: 34rem;
+}
+
+#ultimo {
+    width: 30rem;
+}
+
+@media (max-width: 768px) {
+    .container-imagens {
+        width: 100%;
+    }
+    
+    #quarto {
+        width: 100%;
+        height: auto;
+    }
+
+    #voltar, #avancar {
+        display: none;
+    }
+}
