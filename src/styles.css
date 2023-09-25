@@ -42,6 +42,7 @@
 #voltar, #avancar {
     width:  1.875rem;
     height: 1.875rem;
+
     border: none;
     background-color: transparent;
     color: #0073e6;;
@@ -49,12 +50,17 @@
     
 }
 
+button {
+    width: 12rem;
+    height: 20rem;
+}
+
 #voltar img, #avancar img {
     width: 100%;
     height: 100%;
 }
 
-#avancar {
+#voltar {
     transform: rotate(180deg);
 }
 
