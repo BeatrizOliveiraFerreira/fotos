@@ -50,4 +50,3 @@ function anteriorfoto() {
 avancar.addEventListener('click', proximafoto)
 botao.addEventListener('click', anteriorfoto)
 
-console.log(fotos)
